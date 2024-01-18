@@ -1,10 +1,17 @@
 import Typed from 'typed.js'
 
 var options = {
-  strings: ["I'm a Front-end Developer", 'I Build  Websites', "I Solve Problems"],
-  typeSpeed: 120,
+  strings: [
+    "I'm a Backend Developer",
+    "I'm a Frontend Developer too",
+    "I Build Mobile applications",
+    'I Build  Websites',
+    'I Build  Systems',
+    'I Build  your digital dream',
+  ],
+  typeSpeed: 50,
   backSpeed: 50,
-  backDelay: 1500,
+  backDelay: 750,
   loop: true,
 }
 

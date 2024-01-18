@@ -10,7 +10,7 @@ header #header {
     color: inherit;
     max-width: 57%;
     @include media($bp-lg) {
-      max-width: 37%;
+      max-width: 10%;
     }
 
     & img {

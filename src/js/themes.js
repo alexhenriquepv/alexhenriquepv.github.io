@@ -18,7 +18,7 @@ const themes = {
     secondaryRGB: '162,161,166',
   },
 }
-let isLight = true
+let isLight = false
 
 themesBtn.addEventListener('click', toggleThemes)
 
@@ -49,3 +49,12 @@ function toggleThemes() {
     isLight = true
   }
 }
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    applyTheme(themes.dark)
+    moonIcon.style.display = 'none'
+    sunIcon.style.display = 'block'
+    isLight = false
+  }, 100)
+})
